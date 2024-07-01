@@ -1,3 +1,3 @@
 # lucia-branco
 
-![Página Inicial](img/Captura de imagem_20240701_075746.png)
+![Página Inicial](https://i.ibb.co/KGnzPwh/Captura-de-imagem-20240701-075746.png)
