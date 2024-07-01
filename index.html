@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CEPLB</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        background-color: #010b3d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+
+      #logo {
+        font-family: "Great Vibes", cursive;
+        font-size: 4rem;
+        font-weight: bold;
+        background: linear-gradient(45deg, #d4af37, #ffd700, #ff8c00, #d4af37);
+        background-size: 200% 200%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        animation: shine 2s infinite linear;
+        line-height: 1.2;
+        padding: 0.2em;
+      }
+
+      #embreve {
+        font-size: 1.5rem;
+        color: #fff;
+      }
+
+      @keyframes shine {
+        0% {
+          background-position: 0% 50%;
+        }
+        100% {
+          background-position: 100% 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="section">
+      <div id="logo">LB</div>
+      <div id="embreve">EM BREVE</div>
+    </section>
+  </body>
+</html>
